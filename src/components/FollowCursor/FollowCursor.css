@@ -1,0 +1,19 @@
+/* FollowCursor.css */
+.follow-icon {
+  position: fixed;
+  z-index: 1000;
+  width: 24px; /* Adjust icon width as needed */
+  height: 24px; /* Adjust icon height as needed */
+  pointer-events: none; /* Prevent the icons from interfering with mouse events */
+  transition: transform 0.1s ease-out; /* Add transition effect */
+  color: gold;
+}
+
+.star {
+  color: gold; /* Set color for the star icon */
+}
+
+.follow-icon svg {
+  width: 100%; /* Make the SVG icon fill its container */
+  height: 100%; /* Make the SVG icon fill its container */
+}

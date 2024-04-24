@@ -1,0 +1,58 @@
+/* src/components/Header.css */
+.header {
+  color: black;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.3s; /* Add transition effect */
+}
+
+.logo h1:hover {
+  color: #ff6347; /* Change text color on hover */
+}
+
+nav {
+  text-align: right; /* Align navigation to the right */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px; /* Adjust spacing between navigation items */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin from the first navigation item */
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s; /* Add transition effect */
+}
+
+nav ul li a:hover {
+  color: #ff6347; /* Change text color on hover */
+}

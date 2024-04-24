@@ -1,0 +1,34 @@
+/* src/components/CertifiedCourses.css */
+.certified-courses-section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.course {
+  background-image: url('../HeroSection/k.jpeg'); /* Set background image */
+  background-size: 110%; /* Set background size to 110% width */
+  background-position: center; /* Center the background image */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course:hover {
+  transform: translateY(-5px); /* Move card slightly up on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.course h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.course p {
+  margin-top: 0;
+  color: #777;
+}

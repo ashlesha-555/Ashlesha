@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cc0fb55.css",
+    "main.js": "/static/js/main.de246b48.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/Ashlesha_Khanapure_Resume.pdf": "/static/media/Ashlesha_Khanapure_Resume.42fb2db9694034a28423.pdf",
+    "static/media/ML.png": "/static/media/ML.f9dc386c91c62cc7b6d5.png",
+    "static/media/INCOFT.jpeg": "/static/media/INCOFT.62a547e13500c2f4abc8.jpeg",
+    "static/media/ashh.jpg": "/static/media/ashh.e8bc7768f4d386e3cb97.jpg",
+    "static/media/WEB.jpeg": "/static/media/WEB.80db4caebff4cea5d971.jpeg",
+    "static/media/PYTHON.jpeg": "/static/media/PYTHON.b76b3013f8a76d6a7c23.jpeg",
+    "index.html": "/index.html",
+    "main.4cc0fb55.css.map": "/static/css/main.4cc0fb55.css.map",
+    "main.de246b48.js.map": "/static/js/main.de246b48.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cc0fb55.css",
+    "static/js/main.de246b48.js"
+  ]
+}

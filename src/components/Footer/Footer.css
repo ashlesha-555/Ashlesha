@@ -1,0 +1,69 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0; /* Adjusted padding */
+}
+
+.footer .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex; /* Added display property */
+  justify-content: space-between;
+  align-items: center; /* Vertically center content */
+}
+
+.footer .contact-info, .footer .social-links, .footer .download-resume, .footer .copyright {
+  flex: 1;
+}
+
+.footer .social-links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer .social-links li {
+  margin-bottom: 10px;
+}
+
+.footer .social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .social-links a:hover {
+  text-decoration: underline;
+}
+
+.footer .download-resume {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer .download-resume a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px; /* Adjusted font size */
+}
+
+.footer .download-resume a:hover {
+  text-decoration: underline;
+}
+
+.footer .copyright {
+  text-align: center;
+  font-size: 12px; /* Adjusted font size */
+}
+/* src/components/Footer.css */
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resume-button:hover {
+  background-color: #555;
+}

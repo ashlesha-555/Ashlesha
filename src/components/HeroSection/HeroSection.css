@@ -1,0 +1,44 @@
+/* src/components/HeroSection.css */
+.hero-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  z-index: 1;
+}
+
+.hero-text h1:hover {
+  color: #ff6347; /* Change text color on hover */
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+  z-index: 1;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s; /* Add transition effect */
+}
+
+.hero-image img:hover {
+  transform: rotate(10deg); /* Rotate image slightly on hover */
+}

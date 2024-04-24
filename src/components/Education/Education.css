@@ -1,0 +1,32 @@
+/* src/components/Education.css */
+.education-section {
+  padding: 50px 0; /* Adjust padding as needed */
+  background-color: #f4dfda;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.education-item {
+  background-image: url('../HeroSection/k.jpeg'); /* Set background image */
+  background-size: 110%; /* Set background size to 110% width */
+  background-position: center; /* Center the background image */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.education-item h3 {
+  color: #333; /* Adjust color as needed */
+}
+
+.education-item p {
+  color: #333;
+  margin-bottom: 10px;
+}

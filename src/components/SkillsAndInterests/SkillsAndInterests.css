@@ -1,0 +1,60 @@
+/* src/components/SkillsAndInterests.css */
+.skills-interests-section {
+  padding: 50px 0; /* Adjust padding as needed */
+  background-color: #f4dfda;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.skill-box, .interest-box {
+  background-image: url('../HeroSection/k.jpeg'); /* Set background image */
+  background-size: 110%; /* Set background size to 110% width */
+  background-position: center; /* Center the background image */
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-box {
+  color: #333; /* Adjust color as needed */
+}
+
+.interest-box {
+  color: #333; /* Adjust color as needed */
+}
+
+/* SkillsAndInterests.css */
+.about-me-box {
+  background-image: url('../HeroSection/k.jpeg'); /* Set background image */
+  background-size: 110%; /* Set background size to 110% width */
+  background-position: center; /* Center the background image */
+  border-radius: 20px; /* Add border radius for rounded corners */
+  padding: 20px; /* Add padding for spacing */
+  margin-bottom: 20px; /* Add margin at the bottom for separation */
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.about-me-box h2 {
+  margin-top: 0; /* Remove top margin for heading */
+}
+
+.about-me-box p {
+  margin-bottom: 0; /* Remove bottom margin for paragraph */
+}
+
